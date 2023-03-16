@@ -9,5 +9,5 @@ import java.util.List;
 //responsible for running the queries
 @Repository
 public interface EmployeeRepository extends JpaRepository<Emp, Integer> {
-    //public List<Emp> findByDeptNo(int deptno);
+    public List<Emp> findByDeptNo(int deptno);
 }
